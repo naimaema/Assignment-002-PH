@@ -287,3 +287,92 @@ a{
     text-decoration: none;
     color: rgb(0, 0, 0, 0.5);
 }
+
+/* media query */
+ @media screen and (max-width: 576px){
+        /* navbar */
+        .nav-links >.li-1, .li-2, .li-3{
+            visibility: hidden;
+            position: absolute;
+        }
+        /* banner */
+        .banner-section{
+            flex-direction: column-reverse;
+        }
+        /* plants */
+        .cards-container{
+            grid-template-columns: 1fr 1fr;
+        }
+        /* plants lover */
+        .plants-lover-section{
+            flex-direction: column;
+        }
+        .right-part{
+            max-width: 900px;
+        }
+        .badge-img{
+            display: none;
+        }
+        /* latest deals */
+        .image-part{
+            grid-template-columns: 1fr;
+            margin: 0 auto;
+            margin-top: 80px;
+            height: 500px;
+            text-align: center;
+        }
+         .img-2{
+            font-size: 1.2rem;
+            width: 90%;
+            height: 150px;
+            border-radius: 20px;
+            margin-left: 20px;
+        }
+        .img-1, .img-3{
+            width: 90%;
+            height: 150px;
+            border-radius: 20px;
+            margin-left: 20px;
+            background-size: 500px auto;
+        }
+        /* footer-join section */
+        .join-section{
+            margin-top: 200px;
+        }
+        .newsletter-bg{
+            height: 200px;
+        }
+        .join-title{
+            font-size: 1.2rem;
+        }
+        input{
+            width: 60%;
+            height: 30px;
+        }
+        input::placeholder{
+        font-size: 0.8rem;
+        }
+        .subscribe-btn{
+            width: 30%;
+            height: 34px;
+            font-size: 0.8rem;
+        } 
+        /* footer section */
+         .footer-section{
+            flex-direction: column;
+        }
+        .footer-section li{
+            margin-left: 0;
+        }
+        .footer-logo{
+            margin-left: 40px;
+        }
+        .footer-logo p{
+            font-size: 1.2rem;
+        }
+        .icon-link{
+            width: 30%;
+            margin-left: 40px;
+        }
+ }    
+ /* End */
