@@ -83,3 +83,70 @@ body{
     color: #8987A1;
 }
 
+* main section */
+
+/* plants section */
+.plants-section{
+    margin: 100px auto;
+    max-width: 1140px;
+    padding: 0 16px;
+}
+.plants-description{
+    text-align: center;
+}
+.plants-title{
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin: 0;
+}
+.plants-paragraph{
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 30px;
+    gap: 20px;
+}
+.card{
+    text-align: center;
+    line-height: 20px;
+}
+.card .name{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.add-cart-btn{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+/* plants lover section */
+.plants-lover-section{
+    display: flex;
+    align-items: end;
+    gap: 50px;
+    margin: 100px auto;
+    max-width: 1140px;
+    padding: 0 16px;
+}
+.right-part{
+    max-width: 400px;
+}
+.title{
+    font-size: 2.5rem;
+}
+.paragraphs{
+    color: #8987A1;
+    font-size: 1.2rem;
+}
+.badge-img{
+    width: 250px;
+    position: absolute;
+    transform: translateX(370px) translateY(-100px);
+}
