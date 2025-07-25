@@ -337,7 +337,8 @@ a{
         }
         /* footer-join section */
         .join-section{
-            margin-top: 100px;
+            margin-top: 80px;
+            margin-bottom: 20px;
         }
         .newsletter-bg{
             height: 200px;
@@ -360,6 +361,7 @@ a{
         /* footer section */
          .footer-section{
             flex-direction: column;
+            margin-top: 0;
         }
         .footer-section li{
             margin-left: 0;
